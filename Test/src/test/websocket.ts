@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 app.get("/impressum", (req, res) => {
     const result = doSomething();
 
-    res.send('<h1>Hier steht ein Impressum</h1>' + result);
+    res.send('<h1>Hier steht ein Impressum</h1>' + result.username);
 })
 
 app.listen(port, () => {

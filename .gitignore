@@ -1,0 +1,4 @@
+# Project exclude paths
+/Library/node_modules/
+/Test/dist/
+/Test/node_modules/

@@ -8,10 +8,6 @@ const nestedFileClass = new NestedFile();
 
 export const INTERNET_THINGS = bar;
 
-const kack = path.join(__dirname, "penis");
-
-console.log(kack);
-
 const functionFoo = (number) => {
     return number * 500 * nestedFileClass.foo(number);
 }
@@ -20,7 +16,6 @@ const functionTest = function (concatString) {
     return foo + " " + concatString;
 }
 
-console.log(bar);
 console.log(functionFoo(12));
 console.log(functionTest(", we are interested in compiled versions!!"));
 
